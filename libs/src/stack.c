@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 
-#include "stack.h"
-#include "point.h"
+#include "../header/stack.h"
+#include "../header/point.h"
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>

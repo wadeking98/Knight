@@ -13,9 +13,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
-#include "point.h"
-#include "stack.h"
+#include "../header/main.h"
+#include "../header/point.h"
+#include "../header/stack.h"
 
 /**
  * defines a point data structure

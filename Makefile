@@ -1,11 +1,14 @@
 CC=gcc
 CFLAGS=-I.
-DEPS= point.h stack.h main.h
-OBJ= main.o point.o stack.o
+DEPS= libs/header/point.h libs/header/stack.h libs/header/main.h
+OBJ= libs/src/main.o libs/src/point.o libs/src/stack.o
 
-%.o: %.c $(DEPS)
+%.o: libs/src/%.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 knight: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
+	make clean
 
+clean:
+	rm -f $(OBJ)

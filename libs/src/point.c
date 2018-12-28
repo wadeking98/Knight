@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-#include "point.h"
+#include "../header/point.h"
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
